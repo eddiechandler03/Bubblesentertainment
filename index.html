@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Bubbles Entertainment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=Closesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#1">About</a></li>
+            <li><a href="#2">Services</a></li>
+            <li><a href="#3">Careers</a></li>
+            <li><a href="#4">Contact</a></li>
+        </ul>
+        <ul>
+            <li><img src="img/logos/logo.png" alt=""></li>
+            <li class="hideonmobile"><a href="#1">About</a></li>
+            <li class="hideonmobile"><a href="#2">Services</a></li>
+            <li class="hideonmobile"><a href="#3">Careers</a></li>
+            <li class="hideonmobile"><a href="#4">Contact</a></li>
+            <li class="menu-button" onclick=Showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <h1 class="herotxt">
+        Welcome to Bubbles Animation & Entertainment
+    </h1>
+<hr>
+    <div class="about" id="1">
+        <h1 class="header">
+            About Us:
+        </h1>
+        <p>
+            Bubbles Animation and Entertainment is a leading Malta-based entity with 
+            extensive experience and a proven track record within its field. 
+            Our aim is to provide interested parties with quality entertainment programmes 
+            executed by experienced and professionally-trained animators both local and foreign.<br><br> 
+            Moreover, an interesting selection of foreign artistes may be provided in 
+            collaboration with our overseas contacts, whilst still retaining an excellent 
+            rapport with all leading local artistes.<br><br>
+            Bubbles Animation and Entertainment team operates widely locally whilst it 
+            is also penetrating foreign markets such as Italy, Spain, Cyprus and France.
+            Whilst constantly striving to offer the best animators to our esteemed 
+            clientele, our team boasts of a wide portfolio of professionally-trained 
+            animators with vast experience in the hospitality industry.
+        </p>
+
+        <!--
+        <div class="bg">
+            <img class="bubles" src="img/background/bubbles bg.png" alt="">
+            <img class="palm" src="img/background/palm bg.png" alt="">
+            <img class="sun" src="img/background/sun bg.png" alt="">
+        </div>
+        -->
+
+    </div>
+<hr>
+    <h1 class="header1">
+        Services:
+    </h1>
+    <div class="services" id="2">
+        <div class="card">
+            <img src="img/service/animators.jpg" alt="Animation">
+            <div class="text">
+                <h2 class="header">Animators</h2>
+                <p>Description about Animators</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/service/dancer.jpg" alt="Entertainment">
+            <div class="text">
+                <h2 class="header">Dancers</h2>
+                <p>Description about Dancers</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/service/Singer.jpg" alt="Entertainment">
+            <div class="text">
+                <h2 class="header">Singers</h2>
+                <p>Description about Singers</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/service/acrobats.PNG" alt="Entertainment">
+            <div class="text">
+                <h2 class="header">Acrobats</h2>
+                <p>Description about Acrobats</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/service/dj.jpg" alt="Djs & Musicians">
+            <div class="text">
+                <h2 class="header">Djs & Musicians</h2>
+                <p>Description about Djs and Musicians</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/service/Hosteses.jpg" alt="Hosteses">
+            <div class="text">
+                <h2 class="header">Hosteses</h2>
+                <p>Description about Hosteses</p>
+            </div>
+        </div>
+    </div>
+<hr>
+
+<h2 class="header1">
+    Vacancies
+</h2>
+    <div class="careers" id="3">
+
+        <div class="card-1">
+            <img src="img/vac/dancer-vac.jpg" alt="">
+        </div>
+
+        <div class="card-1">
+            <img src="img/vac/dj-vac.jpg" alt="">
+        </div>
+        <div class="card-1">
+            <img src="img/vac/driver-vac.jpg" alt="">
+        </div>
+        <div class="card-1">
+            <img src="img/vac/hostes-vac.jpg" alt="">
+        </div>
+        <div class="card-1">
+            <img src="img/vac/singITA-vac.jpg" alt="">
+        </div>
+    </div>
+<hr>
+    <div class="contact" id="4">
+        <h2 class="header">
+            Contact us
+        </h2>
+        <br>
+        <form action="index.php" method="post">
+            
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" min-length="3" required><br>
+
+            <label for="sname">Surname:</label><br>
+            <input type="text" id="sname" min-length="3" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" required><br>
+
+            <label for="reason">Reason for contact:</label><br>
+            <select id="reason">
+                <option value="Vacancy">Vacancy/ Casting</option>
+                <option value="Event Enquirey">Event Enquirey</option>
+                <option value="Hire">Staff Hire</option>
+                <option value="Other">Other</option>
+            </select><br>
+
+            <label for="Comment">Comment:</label><br>
+            <textarea id="Comment"rows="4"></textarea><br>
+
+            <input class="button" type="reset">
+            <input class="button" type="submit">
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="footer-col">
+            <ul>
+                <li><a href="#1">About</a></li>
+                <li><a href="#2">Services</a></li>
+                <li><a href="#4">Contact</a></li>
+                <li><a href="#3">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+                <p>
+                Bubbles Animation <br>& Entertainment,<br>
+                41 Triq il-Kuncizzjoni,<br>
+                San Gwann, <br>
+                Malta,<br>
+                SGN 1420<br>
+                </p>
+        </div>
+        <!--Center bottom-->
+        <div class="footer-col">
+            <div class="footer-bot">
+                <img  src="img/logos/logo full.png" alt="Bubbles">
+                <img  src="img/logos/Recuitment.png" alt="Events">
+            </div>
+        </div>
+
+        <p class="copyright">
+            Made and Designed by Eddie Chandler<br>
+            © Bubbles Entertainment and Animation 2024
+        </p>
+    </div>
+
+<script>
+    function Showsidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function Closesidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+</body>
+</html>
